@@ -1,6 +1,5 @@
 package ifrn.pi.eventos.models;
 
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -62,7 +61,5 @@ public class Evento {
 		return "Evento [id=" + id + ", nome=" + nome + ", local=" + local + ", data=" + data + ", horario=" + horario
 				+ "]";
 	}
-	
-	
 
 }
