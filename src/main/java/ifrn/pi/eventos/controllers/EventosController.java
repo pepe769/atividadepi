@@ -16,7 +16,9 @@ public class EventosController {
 
 	@PostMapping("/eventos")
 	public String adicionar(Evento evento) {
+		
 		System.out.println(evento);
+		
 		return "evento-adicionar";
 	}
 
